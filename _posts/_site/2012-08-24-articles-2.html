@@ -1,0 +1,19 @@
+<h3 id='scaling'>第一篇关于scaling</h3>
+
+<p>&#8221;<a href='http://goo.gl/DdYXT'>Zen and the Art of Scaling - A Koan and Epigram Approach</a>&#8221;</p>
+
+<p>是关于分布式系统的可扩展性设计的文章。作者Russell Sullivan曾 在多家公司任软件架构师，并创立了Freelancer公司；他有着多年的分布式数据库开发的研发经验，目前在开发AlchemyDatabase，一个兼有关系数据管理和NOSQL的 复合型数据库。Russell从多年的实践中总结了44条构建高性能、高可扩展的分布式系统的经验教训。这44条不一定全是正确的，但却值得我们去仔细思考。例如:</p>
+
+<ul>
+<li>第6条“可扩展是一种(在性能、功能间的)妥协”</li>
+
+<li>第7条用可配置变量代替hardcoded变量</li>
+
+<li>第31条对数据进行压缩等等</li>
+</ul>
+
+<h3 id='trace_google2010_'>第二篇关于trace ，是Google于2010年 发表的论文</h3>
+
+<p>&#8221;<a href='http://goo.gl/S6trs'>Dapper, A Large-Scale Distributed Systems Tracing Infrastructure</a>&#8221;</p>
+
+<p>Dapper用于跟踪大规模分布式系统中的函数调用流程。分布式系统中，一个用户请求通常涉及多级服务、数千模块实例，Dapper可以很适时(一分钟以内)地分析展现用户请求被处理的全流程，包括具体哪一些模块被访问、各级访问延迟、返回值、以及出错细节等等。Dapper在设计中考虑了低消耗、易推广（应用层透明）、以及可扩展性等设计目标。其中应用层透明是最重要最有挑战性的一个目标，设计人员将所有功能在通用的程序库中实现，从而实现了这一目标。</p>
