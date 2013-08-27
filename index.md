@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "All in Automation"
+title: "All in Automation 一切皆自动"
 ---
 {% include JB/setup %}
 
