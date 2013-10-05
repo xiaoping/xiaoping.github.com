@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "All in Automation 一切皆自动"
+title: "Connect Tech"
 ---
 {% include JB/setup %}
 
