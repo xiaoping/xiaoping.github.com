@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Connect Tech"
+title: "Operation As Craft"
 ---
 {% include JB/setup %}
 
